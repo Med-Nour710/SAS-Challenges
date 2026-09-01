@@ -27,15 +27,15 @@ if (Temperatuer > 30)
 /* ------ Level 2 -----*/
 //Grading System
 let score = 75;
-if (score == 100 || score > 90)
+if (score == 100 && score >= 90)
 {
     console.log( "A")
 }
-else if (score == 89 || score >= 80)
+else if (score == 89 && score >= 80)
 {
     console.log( "B")
 }
-else if (score == 79 || score >= 70)
+else if (score == 79 && score >= 70)
 {
     console.log( "C")
 }
